@@ -1,0 +1,6 @@
+name = "mail-service"
+main = "worker/index.ts"
+compatibility_date = "2024-08-02"
+send_email = [
+    {name = "SEB", allowed_destination_addresses = []},
+]

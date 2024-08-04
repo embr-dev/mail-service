@@ -1,0 +1,17 @@
+{
+    "name": "mail-service",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "worker deploy": "node deploy",
+        "worker dev": "wrangler dev",
+        "worker start": "wrangler dev",
+        "build": "tsc api/index.ts --declaration --allowJs --emitDeclarationOnly --outDir dist && swc api/index.ts -o dist/index.js"
+    },
+    "devDependencies": {
+        "@cloudflare/workers-types": "^4.20240729.0",
+        "@swc/cli": "^0.4.0",
+        "typescript": "^5.5.4",
+        "wrangler": "^3.60.3"
+    }
+}
