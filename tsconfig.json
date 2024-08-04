@@ -1,16 +1,15 @@
 {
-    "compileOnSave": true,
-    "compilerOptions": {
-        "esModuleInterop": true,
-        "allowImportingTsExtensions": true,
-        "noEmit": true,
-        "target": "ES2022",
-        "module": "ES2022",
-        "lib": ["ES2022"],
-        "moduleResolution": "Bundler",
-        "types": ["@cloudflare/workers-types"]
-    },
-    "ts-node": {
-      "esm": true
-    }
+  "include": ["api"],
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "declaration": true,
+    "checkJs": false,
+    "outDir": "./dist/",
+    "lib": ["ES2022"],
+    "types": [
+      "@cloudflare/workers-types"
+    ]
+  }
 }

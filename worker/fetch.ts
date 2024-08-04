@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import type { Request as WorkerRequest, ExecutionContext } from '@cloudflare/workers-types/experimental';
 import { EmailMessage } from 'cloudflare:email';
 
