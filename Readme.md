@@ -34,8 +34,8 @@ npm i @embr-dev/mail-service
 
 An example implementation using the package [mimetext](https://www.npmjs.com/package/mimetext).
 ```javascript
+import MSClient from '@embr-dev/mail-service';
 import { createMimeMessage } from 'mimetext';
-import MSClient from 'mail-service';
 
 const recipient = 'recipient@example.com';
 const sender = 'email@mydomain.com';
