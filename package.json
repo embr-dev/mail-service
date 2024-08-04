@@ -1,7 +1,11 @@
 {
     "name": "mail-service",
     "version": "1.0.0",
+    "description": "A lightweight server and api to send emails utilizing cloudflare workers.",
+    "author": "Embr Development Group",
     "type": "module",
+    "types": "./dist/index.d.ts",
+    "main": "./dist/index.js",
     "scripts": {
         "worker deploy": "node deploy",
         "worker dev": "wrangler dev",
@@ -13,5 +17,14 @@
         "@swc/cli": "^0.4.0",
         "typescript": "^5.5.4",
         "wrangler": "^3.60.3"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/embr-dev/mail-service.git"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/embr-dev/mail-service/issues"
+    },
+    "homepage": "https://github.com/embr-dev/mail-service#readme"
 }
