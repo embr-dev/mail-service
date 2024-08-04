@@ -7,7 +7,7 @@
     "declaration": true,
     "checkJs": false,
     "outDir": "./dist/",
-    "lib": ["ESNext"],
+    "lib": ["ESNext", "DOM"],
     "moduleResolution": "NodeNext"
   }
 }
