@@ -6,6 +6,9 @@
     "type": "module",
     "types": "./dist/index.d.ts",
     "main": "./dist/index.js",
+    "files": [
+        "dist"
+    ],
     "scripts": {
         "worker deploy": "node deploy",
         "worker dev": "wrangler dev",
