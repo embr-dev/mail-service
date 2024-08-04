@@ -1,10 +1,10 @@
 # Mail Service
 
-A lightweight server and api to send emails utilizing cloudflare workers.
+A lightweight server and api to send emails with cloudflare workers.
 
 ### Prerequisites
 
-- A cloudflare account with an active domain
+- A cloudflare account with an active domain and email routing enabled
 - Nodejs, npm & git installed on your machine
 - A brain (optional)
 
