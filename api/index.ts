@@ -39,7 +39,7 @@ class MSClient {
                 raw: raw
             })
         })
-            .then(res => res.json())
+            .then((res) => res.json())
             .then(({ success, data }: {
                 success: boolean,
                 status: number,

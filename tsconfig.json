@@ -2,14 +2,12 @@
   "include": ["api"],
   "compileOnSave": true,
   "compilerOptions": {
-    "module": "ESNext",
+    "module": "NodeNext",
     "esModuleInterop": true,
     "declaration": true,
     "checkJs": false,
     "outDir": "./dist/",
-    "lib": ["ES2022"],
-    "types": [
-      "@cloudflare/workers-types"
-    ]
+    "lib": ["ESNext"],
+    "moduleResolution": "NodeNext"
   }
 }
