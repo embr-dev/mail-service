@@ -13,7 +13,7 @@
         "worker deploy": "node deploy",
         "worker dev": "wrangler dev",
         "worker start": "wrangler dev",
-        "build": "tsc"
+        "build": "tsc --project tsconfig.json"
     },
     "devDependencies": {
         "typescript": "^5.5.4",
