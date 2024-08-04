@@ -29,7 +29,7 @@ Once you have ran the commands above you should get an output containing your ap
 
 Installing the package:
 ```bash
-npm i mail-service
+npm i @embr-dev/mail-service
 ```
 
 An example implementation using the package [mimetext](https://www.npmjs.com/package/mimetext).
