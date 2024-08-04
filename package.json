@@ -1,5 +1,5 @@
 {
-    "name": "mail-service",
+    "name": "@embr-dev/mail-service",
     "version": "1.0.0",
     "description": "A lightweight server and api to send emails utilizing cloudflare workers.",
     "author": "Embr Development Group",
